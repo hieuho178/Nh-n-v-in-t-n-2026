@@ -171,7 +171,6 @@ export default function Home(){
       Đặt hàng và nhận sản phẩm ngay trong ngày.
       Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.</p>
       <div className="actions">
- <div className="actions">
   <a
     href="https://zalo.me/0789387343"
     target="_blank"
