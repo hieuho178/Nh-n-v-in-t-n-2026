@@ -130,10 +130,11 @@ export default function Home(){
       recipient_name:d.recipient_name||"",
       phone:d.phone||"",
       province:d.province||"",
-      district:d.district||"",
+      district:"",
       ward:d.ward||"",
       address:d.address||"",
       note:d.note||"",
+      discount_code:d.discount_code||"",
       payment_method:d.payment_method||"COD",
       total_amount:""
     };
@@ -151,7 +152,9 @@ export default function Home(){
       const result=await r.json();
       if(!r.ok || !result.ok) throw new Error(result.error||"Không lưu được đơn hàng");
 
-      setStatus(`success:Đặt hàng thành công. Mã đơn: ${payload.order_id}`);
+      setStatus(
+  "success:Quý khách đã đặt hàng thành công, Lah Art sẽ sớm liên hệ lại với quý khách để xác nhận giao hàng. Trong trường hợp cần gấp vui lòng liên hệ Zalo: 0789387343"
+);
       form.reset();
       setNv(null);
       setSt(null);
@@ -270,10 +273,16 @@ export default function Home(){
             <label>Người nhận *</label><input name="recipient_name" required/>
             <label>Số điện thoại *</label><input name="phone" type="tel" required/>
             <label>Tỉnh/TP *</label><input name="province" required/>
-            <label>Quận/Huyện *</label><input name="district" required/>
-            <label>Phường/Xã *</label><input name="ward" required/>
+            <label>Phường/Xã *</label><input name="ward">
             <label>Địa chỉ chi tiết *</label><input name="address" required/>
-            <label>Ghi chú</label><textarea name="note"/>
+            <label>Ghi chú</label>
+<textarea name="note"/>
+
+<label>Mã Giảm Giá</label>
+<input
+  name="discount_code"
+  placeholder="Nhập mã giảm giá nếu có"
+/>
             <label>Thanh toán</label>
             <select name="payment_method">
               <option value="COD">COD</option>
