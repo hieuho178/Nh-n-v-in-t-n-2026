@@ -193,20 +193,7 @@ export default function Home() {
 
       <div className="hero-benefits">
         <div className="container">
-          <p>✓ Sản phẩm bán chạy Top 1 sàn Shopee suốt 5 năm.</p>
-          <p>✓ Có nhiều mẫu phù hợp cho các lứa tuổi, bé trai và bé gái.</p>
-          <p>✓ Bảo đảm chất lượng, độ dính, sắc nét, cắt hình sẵn.</p>
-          <p>✓ Đặt hàng và nhận ngay trong ngày hỏa tốc.</p>
-          <p>
-            ✓ Tư vấn trực tiếp vui lòng liên hệ{" "}
-            <a
-              href="https://zalo.me/0789378343"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ZALO 0789 387 343
-            </a>.
-          </p>
+          
         </div>
       </div>
 
@@ -221,11 +208,15 @@ export default function Home() {
           </h1>
 
           <p className="lead">
-            Sản phẩm bán chạy Top1 sàn Shopee suốt 5 năm.
+            <h3>
+            Sản phẩm bán chạy Top 1 Shopee suốt 5 năm, với ~100.000 lượt mua.
             <br />
-            Đặt hàng và nhận sản phẩm ngay trong ngày.
+            Sản xuất trên hệ thống máy in Konica Label của Nhật Bản, đảm bảo chất lượng, màu sắc, độ dính
+            <br />
+            Đặt hàng và nhận ngay trong ngày, ship Hỏa Tốc nội thành HN, Viettel toàn quốc.
             <br />
             Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.
+             </h3>
           </p>
 
           <div className="actions">
