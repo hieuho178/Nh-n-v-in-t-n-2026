@@ -171,10 +171,17 @@ export default function Home(){
     </div></header>
 
     <section id="products"><div className="container">
-      <h2 className="section-title">Chọn mẫu</h2>
-      <p className="section-sub">Chọn mẫu nhãn vở hoặc sticker. Có thể đặt cả hai sản phẩm trong cùng một đơn.</p>
+     <h2 className="section-title">
+  Chọn mẫu nhãn vở và sticker yêu thích của bé
+</h2>
+
+<p className="section-sub">
+  Bạn có thể chọn <strong>1 mẫu nhãn vở và 1 mẫu sticker</strong> trong cùng 1 đơn hàng.
+  {" "}Nếu mua <strong>từ 2 mẫu nhãn vở hoặc sticker trở lên</strong>, vui lòng nhập
+  thông tin thành nhiều lần để tránh nhầm lẫn.
+</p>
       <div className="tabs">
-        {["Nhãn vở","Sticker"].map(t=>
+        {["📚 Nhãn vở","⭐ Sticker"].map(t=>
           <button type="button" key={t} onClick={()=>setFilter(t)} className={`tab ${filter===t?"active":""}`}>{t}</button>
         )}
       </div>
