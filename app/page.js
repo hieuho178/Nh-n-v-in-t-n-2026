@@ -165,12 +165,21 @@ export default function Home(){
   return <>
     <header className="hero"><div className="container">
       <span className="badge">LAH ART PRINT • CTY IN HỒ GIA</span>
-      <h1>Nhãn vở & Sticker in theo yêu cầu
+      <h1>Nhãn vở & Sticker in tên bé
     Mẫu mới 2026-2027</h1>
       <p className="lead">Sản phẩm bán chạy Top1 sàn Shopee suốt 5 năm.
       Đặt hàng và nhận sản phẩm ngay trong ngày.
       Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.</p>
-      <div className="actions"><a className="btn" href="#products">Chọn mẫu ngay</a><a className="btn secondary" href="#order">Đặt hàng</a></div>
+      <div className="actions">
+  <a
+    className="btn zalo-btn"
+    href="https://zalo.me/0789378343"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    💬 Liên hệ trực tiếp qua Zalo
+  </a>
+</div>
     </div></header>
 
     <section id="products"><div className="container">
