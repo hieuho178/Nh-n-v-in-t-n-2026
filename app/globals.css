@@ -40,3 +40,28 @@ footer{padding:30px 0 80px;color:var(--muted)}.sticky{position:fixed;left:0;righ
 .zalo-btn:hover {
   transform: translateY(-1px);
 }
+.zalo-image-link {
+  display: inline-block;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.zalo-contact-image {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 14px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.zalo-image-link:hover .zalo-contact-image {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+@media (max-width: 600px) {
+  .zalo-contact-image {
+    max-width: 100%;
+  }
+}
