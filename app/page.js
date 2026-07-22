@@ -163,13 +163,35 @@ export default function Home(){
   }
 
   return <>
+    
     <header className="hero"><div className="container">
       <span className="badge">LAH ART PRINT • CTY IN HỒ GIA</span>
+    <div className="top-banner">
+  <img
+    src="/products/banner-hero-01.png"
+    alt="Nhãn vở in sẵn thông tin bé - LAH ART PRINT"
+  />
+</div>
       <h1>Nhãn vở & Sticker in tên bé
     Mẫu mới 2026-2027</h1>
-      <p className="lead">Sản phẩm bán chạy Top1 sàn Shopee suốt 5 năm.
-      Đặt hàng và nhận sản phẩm ngay trong ngày.
-      Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.</p>
+     <div className="hero-benefits">
+  <div className="container">
+    <p>👉 Sản phẩm bán chạy Top 1 sàn Shopee suốt 5 năm.</p>
+    <p>👉 Có nhiều mẫu phù hợp cho các lứa tuổi, cả bé trai và bé gái.</p>
+    <p>👉 Sản xuất trên hệ thống máy in Konica label của Nhật Bản, đảm bảo chất lượng.</p>
+    <p>👉 Đặt hàng và nhận ngay trong ngày, ship hỏa tốc.</p>
+    <p>
+      ✓ Tư vấn trực tiếp vui lòng liên hệ{" "}
+      <a
+        href="https://zalo.me/0789378343"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ZALO 0789 387 343
+      </a>.
+    </p>
+  </div>
+</div>
       <div className="actions">
   <a
     href="https://zalo.me/0789387343"
