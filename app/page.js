@@ -209,7 +209,7 @@ export default function Home() {
 
           <p className="lead">
             <h3>
-            👉 Sản phẩm bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
+            👉 Shop bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
             <br />
             👉 Sản xuất trên hệ thống máy in Konica của Nhật Bản, đảm bảo chất lượng, màu sắc
             <br />
@@ -230,7 +230,7 @@ export default function Home() {
               aria-label="Liên hệ LAH ART PRINT qua Zalo"
             >
               <img
-                src="/products/zalo-contact.jpg"
+                src="/products/zalo-contact.png"
                 alt="Liên hệ Zalo LAH ART PRINT - 0789 387 343"
                 className="zalo-contact-image"
               />
