@@ -200,7 +200,7 @@ export default function Home() {
           <p>
             ✓ Tư vấn trực tiếp vui lòng liên hệ{" "}
             <a
-              href="https://zalo.me/0789387343"
+              href="https://zalo.me/0789378343"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -220,24 +220,13 @@ export default function Home() {
             Mẫu mới 2026-2027
           </h1>
 
-      <div className="container">
-                <h3>
-          <p>✓ Sản phẩm bán chạy Top 1 Shopee suốt 5 năm với ~100.000 lượt mua.</p>
-          <p>✓ Có nhiều mẫu phù hợp cho các lứa tuổi, bé trai và bé gái.</p>
-          <p>✓ Sản xuất trên hệ thống máy in Konica của Nhật Bản, đảm bảo chất lượng.</p>
-          <p>✓ Đặt hàng và nhận ngay trong ngày hỏa tốc.</p>
-          <p>
-            ✓ Tư vấn trực tiếp vui lòng liên hệ{" "}
-  </h3>
-            <a
-              href="https://zalo.me/0789387343"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ZALO 0789 387 343
-            </a>.
+          <p className="lead">
+            Sản phẩm bán chạy Top1 sàn Shopee suốt 5 năm.
+            <br />
+            Đặt hàng và nhận sản phẩm ngay trong ngày.
+            <br />
+            Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.
           </p>
-        </div>
 
           <div className="actions">
             <a
