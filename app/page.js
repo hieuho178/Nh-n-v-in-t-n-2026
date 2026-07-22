@@ -209,19 +209,21 @@ export default function Home() {
 
           <p className="lead">
             <h3>
-            Sản phẩm bán chạy Top 1 Shopee suốt 5 năm, với ~100.000 lượt mua.
+            👉 Sản phẩm bán chạy Top 1 Shopee suốt 5 năm, với >100.000 lượt mua.
             <br />
-            Sản xuất trên hệ thống máy in Konica Label của Nhật Bản, đảm bảo chất lượng, màu sắc, độ dính
+            👉 Sản xuất trên hệ thống máy in Konica của Nhật Bản, đảm bảo chất lượng, màu sắc
             <br />
-            Đặt hàng và nhận ngay trong ngày, ship Hỏa Tốc nội thành HN, Viettel toàn quốc.
+             👉 Chất liệu decal OJI nhập khẩu Nhật Bản, không độc hại, không bay mùi, đảm bảo an toàn cho trẻ
             <br />
-            Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.
+            👉 Đặt hàng và nhận ngay trong ngày, Có ship Hỏa Tốc nội thành HN, Ship Viettel toàn quốc.
+            <br />
+            👉 Gần 100 mẫu phù hơp với nhiều lứa tuổi, cho cả bé trai và bé gái
              </h3>
           </p>
 
           <div className="actions">
             <a
-              href="https://zalo.me/0789378343"
+              href="https://zalo.me/0789387343"
               target="_blank"
               rel="noopener noreferrer"
               className="zalo-image-link"
