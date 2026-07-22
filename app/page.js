@@ -1,7 +1,7 @@
 "use client";
 import { useMemo, useState } from "react";
 
-const API_URL = "https://script.google.com/macros/s/AKfycbxlTUv0_Saz_OLxiuSdKvcNwioQqFD8k9HxzdiiNUl8XYn_AuO67ZAM83Gf9JqclOeK/exec";
+const API_URL = "/api/order";
 const PRODUCTS = [
   ...Array.from({length:36},(_,i)=>({type:"Nhãn vở",code:`NV-${String(i+1).padStart(2,"0")}`,image:`/products/nv-${String(i+1).padStart(2,"0")}.webp`})),
   ...Array.from({length:30},(_,i)=>({type:"Sticker",code:`ST-${String(i+1).padStart(2,"0")}`,image:`/products/st-${String(i+1).padStart(2,"0")}.webp`}))
