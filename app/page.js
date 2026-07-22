@@ -179,7 +179,7 @@ export default function Home(){
     aria-label="Liên hệ LAH ART PRINT qua Zalo"
   >
     <img
-      src="/products/zalo-contact.jpg"
+      src="/products/zalo-contact.png"
       alt="Liên hệ Zalo LAH ART PRINT - 0789 387 343"
       className="zalo-contact-image"
     />
