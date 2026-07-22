@@ -25,6 +25,7 @@ export default function Home(){
 
   async function submit(e){
     e.preventDefault();
+    const form = e.currentTarget;
     if(!nv && !st){setStatus("error:Vui lòng chọn ít nhất một mẫu.");return;}
     const f=new FormData(e.currentTarget);
     const d=Object.fromEntries(f.entries());
@@ -61,7 +62,9 @@ export default function Home(){
       const result=await r.json();
       if(!result.ok) throw new Error(result.error||"Không lưu được đơn hàng");
       setStatus(`success:Đặt hàng thành công. Mã đơn: ${payload.order_id}`);
-      e.currentTarget.reset(); setNv(null); setSt(null);
+form.reset();
+setNv(null);
+setSt(null);
     }catch(err){
       setStatus(`error:${err.message||"Có lỗi khi gửi đơn."}`);
     }finally{setBusy(false)}
