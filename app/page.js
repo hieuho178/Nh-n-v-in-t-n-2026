@@ -171,12 +171,21 @@ export default function Home(){
       Đặt hàng và nhận sản phẩm ngay trong ngày.
       Tư vấn trực tiếp vui lòng liên hệ ZALO 0789 387 343.</p>
       <div className="actions">
+  <div className="actions">
   <a
-    className="btn zalo-btn"
     href="https://zalo.me/0789378343"
     target="_blank"
     rel="noopener noreferrer"
+    className="zalo-image-link"
+    aria-label="Liên hệ LAH ART PRINT qua Zalo"
   >
+    <img
+      src="/products/zalo-contact.jpg"
+      alt="Liên hệ Zalo LAH ART PRINT - 0789 387 343"
+      className="zalo-contact-image"
+    />
+  </a>
+</div>
     💬 Liên hệ trực tiếp qua Zalo
   </a>
 </div>
