@@ -29,3 +29,14 @@ textarea{min-height:90px}.summary{background:#fff7ef;border:1px solid #f0d6be;bo
 footer{padding:30px 0 80px;color:var(--muted)}.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.97);border-top:1px solid var(--border);padding:10px;display:none;z-index:20}.sticky .btn{width:100%}
 @media(max-width:900px){.grid{grid-template-columns:repeat(3,1fr)}.form-wrap{grid-template-columns:1fr}}
 @media(max-width:650px){.hero{padding-top:38px}.grid{grid-template-columns:repeat(2,1fr)}section{padding:34px 0}.sticky{display:block}}
+.zalo-btn {
+  padding: 14px 22px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.zalo-btn:hover {
+  transform: translateY(-1px);
+}
