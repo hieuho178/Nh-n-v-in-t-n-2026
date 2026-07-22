@@ -54,7 +54,16 @@ function PImg({p}){
   const [bad,setBad]=useState(false);
   return bad
     ? <div className="product-img">{p.name}</div>
-    : <img src={p.image} alt={p.name} onError={()=>setBad(true)} style={{width:"100%",aspectRatio:"4/3",objectFit:"cover",display:"block"}} />;
+    :<img
+  src={p.image}
+  alt={p.name}
+  onError={()=>setBad(true)}
+  style={{
+    width:"100%",
+    aspectRatio:"1/1",
+    objectFit:"contain",
+    display:"block",
+    background:"#ffffff" />;
 }
 
 export default function Home(){
