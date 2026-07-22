@@ -181,7 +181,7 @@ export default function Home(){
   thông tin thành nhiều lần để tránh nhầm lẫn.
 </p>
       <div className="tabs">
-        {["📚 Nhãn vở","⭐ Sticker"].map(t=>
+       {["Nhãn vở","Sticker"].map(t=>
           <button type="button" key={t} onClick={()=>setFilter(t)} className={`tab ${filter===t?"active":""}`}>{t}</button>
         )}
       </div>
