@@ -41,12 +41,32 @@ const NOTEBOOKS = [
   {type:"Nhãn vở",number:45,name:"#45 Kuromi",image:"/products/nv-45.webp"}
 ];
 
-const STICKERS = Array.from({length:30},(_,i)=>({
-  type:"Sticker",
-  code:`ST-${String(i+1).padStart(2,"0")}`,
-  name:`ST-${String(i+1).padStart(2,"0")}`,
-  image:`/products/st-${String(i+1).padStart(2,"0")}.webp`
-}));
+const STICKERS = [
+  {type:"Sticker",number:54,name:"#54 Bé trai 1",image:"/products/st-54.webp"},
+  {type:"Sticker",number:55,name:"#55 Bé trai 2",image:"/products/st-55.webp"},
+  {type:"Sticker",number:56,name:"#56 Bé gái",image:"/products/st-56.webp"},
+  {type:"Sticker",number:57,name:"#57 Siêu Nhân",image:"/products/st-57.webp"},
+  {type:"Sticker",number:58,name:"#58 Doraemon",image:"/products/st-58.webp"},
+  {type:"Sticker",number:59,name:"#59 Sắc màu",image:"/products/st-59.webp"},
+  {type:"Sticker",number:60,name:"#60 Cute Animals",image:"/products/st-60.webp"},
+  {type:"Sticker",number:61,name:"#61 Paw Patrol",image:"/products/st-61.webp"},
+  {type:"Sticker",number:62,name:"#62 Cute Rabbit",image:"/products/st-62.webp"},
+  {type:"Sticker",number:63,name:"#63 Shin Cậu bé bút chì",image:"/products/st-63.webp"},
+  {type:"Sticker",number:64,name:"#64 Chú Ếch xanh",image:"/products/st-64.webp"},
+  {type:"Sticker",number:65,name:"#65 Toy Story",image:"/products/st-65.webp"},
+  {type:"Sticker",number:67,name:"#67 Capybara",image:"/products/st-67.webp"},
+  {type:"Sticker",number:68,name:"#68 Kuromi",image:"/products/st-68.webp"},
+  {type:"Sticker",number:69,name:"#69 Cinamoroll",image:"/products/st-69.webp"},
+  {type:"Sticker",number:70,name:"#70 Melody",image:"/products/st-70.webp"},
+  {type:"Sticker",number:71,name:"#71 Bé Dâu Cute",image:"/products/st-71.webp"},
+  {type:"Sticker",number:72,name:"#72 Cute Kawaii",image:"/products/st-72.webp"},
+  {type:"Sticker",number:73,name:"#73 Cỏ may mắn",image:"/products/st-73.webp"},
+  {type:"Sticker",number:74,name:"#74 Cute cats",image:"/products/st-74.webp"},
+  {type:"Sticker",number:75,name:"#75 Bé Bơ",image:"/products/st-75.webp"},
+  {type:"Sticker",number:76,name:"#76 Bé Sóc",image:"/products/st-76.webp"},
+  {type:"Sticker",number:77,name:"#77 Bánh ngọt",image:"/products/st-77.webp"},
+  {type:"Sticker",number:78,name:"#78 Bé Sâu",image:"/products/st-78.webp"}
+];
 
 const PRODUCTS = [...NOTEBOOKS, ...STICKERS];
 
