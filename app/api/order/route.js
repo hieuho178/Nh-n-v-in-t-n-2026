@@ -17,28 +17,36 @@ export async function POST(request) {
 
     const text = await response.text();
 
+    console.log("GOOGLE_STATUS:", response.status);
+    console.log("GOOGLE_RESPONSE:", text);
+
     let data;
 
     try {
       data = JSON.parse(text);
     } catch {
-      throw new Error(
-        "Google Apps Script trả về dữ liệu không hợp lệ"
+      return Response.json(
+        {
+          ok: false,
+          error: "Apps Script trả về: " + text.slice(0, 500),
+        },
+        { status: 500 }
       );
     }
 
     if (!response.ok || !data.ok) {
-      throw new Error(
-        data.error || `Google Apps Script HTTP ${response.status}`
+      return Response.json(
+        {
+          ok: false,
+          error: data.error || `Google HTTP ${response.status}`,
+        },
+        { status: 500 }
       );
     }
 
-    return Response.json(data, {
-      status: 200,
-    });
+    return Response.json(data);
 
   } catch (error) {
-
     console.error("ORDER_API_ERROR", error);
 
     return Response.json(
@@ -46,9 +54,7 @@ export async function POST(request) {
         ok: false,
         error: error?.message || "Không thể ghi đơn hàng",
       },
-      {
-        status: 500,
-      }
+      { status: 500 }
     );
   }
 }
