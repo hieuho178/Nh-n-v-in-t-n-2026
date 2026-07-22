@@ -209,7 +209,7 @@ export default function Home() {
 
           <p className="lead">
             <h3>
-            👉 Sản phẩm bán chạy Top 1 Shopee suốt 5 năm, với >100.000 lượt mua.
+            👉 Sản phẩm bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
             <br />
             👉 Sản xuất trên hệ thống máy in Konica của Nhật Bản, đảm bảo chất lượng, màu sắc
             <br />
