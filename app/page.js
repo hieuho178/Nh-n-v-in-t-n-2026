@@ -186,7 +186,7 @@ export default function Home() {
     <>
       <div className="top-banner">
         <img
-          src="/products/banner-hero-01.png"
+          src="/products/hero-lahart.jpg"
           alt="Nhãn vở in sẵn thông tin bé - LAH ART PRINT"
         />
       </div>
