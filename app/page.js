@@ -264,7 +264,7 @@ export default function Home() {
           </p>
 
           <div className="tabs">
-            {["Nhãn vở", "Sticker"].map((t) => (
+            {["Chọn Mẫu Nhãn vở", "Chọn Mẫu Sticker"].map((t) => (
               <button
                 type="button"
                 key={t}
@@ -279,7 +279,7 @@ export default function Home() {
           <div className="grid">
             {visible.map((p) => {
               const selected =
-                p.type === "Nhãn vở"
+                p.type === "Chọn Mẫu Nhãn vở"
                   ? nv?.name === p.name
                   : st?.name === p.name;
 
