@@ -184,20 +184,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="top-banner">
-        <img
-          src="/products/hero-lahart.jpg"
-          alt="Nhãn vở in sẵn thông tin bé - LAH ART PRINT"
-        />
-      </div>
-
-      <div className="hero-benefits">
-        <div className="container">
-          
-        </div>
-      </div>
-
-      <header className="hero">
+           <header className="hero">
         <div className="container">
           <span className="badge">LAH ART PRINT • CTY IN HỒ GIA</span>
 
@@ -207,7 +194,25 @@ export default function Home() {
             Mẫu mới 2026-2027
           </h1>
 
-          <p className="lead">
+          
+                  <div className="product-banners">
+  <img
+    src="/products/banner-nhan-vo.png"
+    alt="Nhãn vở in theo yêu cầu - 1 tờ 36 cái"
+  />
+
+  <img
+    src="/products/banner-sticker.png"
+    alt="Sticker dán tên - 1 tờ 100 cái"
+  />
+       <img
+    src="/products/banner-sale.png"
+    alt="kHUYEN mAI DAC BIET"
+  />
+</div>
+        </div>
+      </header>
+      <p className="lead">
             <h3>
             👉 Shop bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
             <br />
@@ -236,19 +241,6 @@ export default function Home() {
               />
             </a>
           </div>
-                  <div className="product-banners">
-  <img
-    src="/products/banner-nhan-vo.png"
-    alt="Nhãn vở in theo yêu cầu - 1 tờ 36 cái"
-  />
-
-  <img
-    src="/products/banner-sticker.png"
-    alt="Sticker dán tên - 1 tờ 100 cái"
-  />
-</div>
-        </div>
-      </header>
 
       <section id="products">
         <div className="container">
