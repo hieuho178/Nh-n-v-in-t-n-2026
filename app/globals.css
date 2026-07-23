@@ -185,3 +185,20 @@ footer{padding:30px 0 80px;color:var(--muted)}.sticky{position:fixed;left:0;righ
     line-height: 1.5;
   }
 }
+/* NÚT CHỌN NHÃN VỞ / STICKER */
+.tabs button {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 28px;
+  min-height: 58px;
+  border-radius: 30px;
+}
+
+/* Điện thoại */
+@media (max-width: 600px) {
+  .tabs button {
+    font-size: 17px;
+    padding: 13px 18px;
+    min-height: 50px;
+  }
+}
