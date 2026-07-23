@@ -225,6 +225,7 @@ export default function Home() {
         👉 Đặt hàng và nhận ngay trong ngày, có ship Hỏa Tốc nội thành HN, Ship Viettel toàn quốc.
         <br />
         👉 Gần 100 mẫu phù hợp với nhiều lứa tuổi, cho cả bé trai và bé gái.
+          <br />
         Tư vấn & Hỗ trợ: (Zalo) Lah Art Print 0789 387 343
       </h3>
     </div>
@@ -263,25 +264,30 @@ export default function Home() {
             nhập thông tin thành nhiều lần để tránh nhầm lẫn.
           </p>
 
-          <div className="tabs">
-            {["Chọn Mẫu Nhãn vở", "Chọn Mẫu Sticker"].map((t) => (
-              <button
-                type="button"
-                key={t}
-                onClick={() => setFilter(t)}
-                className={`tab ${filter === t ? "active" : ""}`}
-              >
-                {t}
-              </button>
-            ))}
-          </div>
+        <div className="tabs">
+  <button
+    type="button"
+    onClick={() => setFilter("Nhãn vở")}
+    className={`tab ${filter === "Nhãn vở" ? "active" : ""}`}
+  >
+    Chọn Mẫu Nhãn vở
+  </button>
+
+  <button
+    type="button"
+    onClick={() => setFilter("Sticker")}
+    className={`tab ${filter === "Sticker" ? "active" : ""}`}
+  >
+    Chọn Mẫu Sticker
+  </button>
+</div>
 
           <div className="grid">
             {visible.map((p) => {
-              const selected =
-                p.type === "Chọn Mẫu Nhãn vở"
-                  ? nv?.name === p.name
-                  : st?.name === p.name;
+           const selected =
+  p.type === "Nhãn vở"
+    ? nv?.name === p.name
+    : st?.name === p.name;
 
               return (
                 <div
