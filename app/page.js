@@ -184,63 +184,68 @@ export default function Home() {
 
   return (
     <>
-           <header className="hero">
-        <div className="container">
-          <span className="badge">LAH ART PRINT • CTY IN HỒ GIA</span>
+          <header className="hero">
+  <div className="container">
 
-          <h1>
-            Nhãn vở & Sticker in tên bé
-            <br />
-            Mẫu mới 2026-2027
-          </h1>
+    <span className="badge">
+      LAH ART PRINT • CTY IN HỒ GIA
+    </span>
 
-          
-                  <div className="product-banners">
-  <img
-    src="/products/banner-nhan-vo.png"
-    alt="Nhãn vở in theo yêu cầu - 1 tờ 36 cái"
-  />
+    <h1>
+      Nhãn vở & Sticker in tên bé
+      <br />
+      Mẫu mới 2026-2027
+    </h1>
 
-  <img
-    src="/products/banner-sticker.png"
-    alt="Sticker dán tên - 1 tờ 100 cái"
-  />
-       <img
-    src="/products/banner-sale.png"
-    alt="kHUYEN mAI DAC BIET"
-  />
-</div>
-        </div>
-      <p className="lead">
-            <h3>
-            👉 Shop bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
-            <br />
-            👉 Sản xuất trên hệ thống máy in Konica của Nhật Bản, đảm bảo chất lượng, màu sắc
-            <br />
-             👉 Chất liệu decal OJI nhập khẩu Nhật Bản, không độc hại, không bay mùi, đảm bảo an toàn cho trẻ
-            <br />
-            👉 Đặt hàng và nhận ngay trong ngày, Có ship Hỏa Tốc nội thành HN, Ship Viettel toàn quốc.
-            <br />
-            👉 Gần 100 mẫu phù hơp với nhiều lứa tuổi, cho cả bé trai và bé gái
-             </h3>
-          </p>
+    <div className="product-banners">
+      <img
+        src="/products/banner-nhan-vo.png"
+        alt="Nhãn vở in theo yêu cầu - 1 tờ 36 cái"
+      />
 
-          <div className="actions">
-            <a
-              href="https://zalo.me/0789387343"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="zalo-image-link"
-              aria-label="Liên hệ LAH ART PRINT qua Zalo"
-            >
-              <img
-                src="/products/zalo-contact.png"
-                alt="Liên hệ Zalo LAH ART PRINT - 0789 387 343"
-                className="zalo-contact-image"
-              />
-            </a>
-          </div>
-      </header>
+      <img
+        src="/products/banner-sticker.png"
+        alt="Sticker dán tên - 1 tờ 100 cái"
+      />
+
+      <img
+        src="/products/banner-sale.png"
+        alt="Khuyến mãi đặc biệt"
+      />
+    </div>
+
+    <div className="hero-benefits">
+      <h3>
+        👉 Shop bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
+        <br />
+        👉 Sản xuất trên hệ thống máy in Konica của Nhật Bản, đảm bảo chất lượng, màu sắc.
+        <br />
+        👉 Chất liệu decal OJI nhập khẩu Nhật Bản, không độc hại, không bay mùi, đảm bảo an toàn cho trẻ.
+        <br />
+        👉 Đặt hàng và nhận ngay trong ngày, có ship Hỏa Tốc nội thành HN, Ship Viettel toàn quốc.
+        <br />
+        👉 Gần 100 mẫu phù hợp với nhiều lứa tuổi, cho cả bé trai và bé gái.
+      </h3>
+    </div>
+
+    <div className="actions">
+      <a
+        href="https://zalo.me/0789387343"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="zalo-image-link"
+        aria-label="Liên hệ LAH ART PRINT qua Zalo"
+      >
+        <img
+          src="/products/zalo-contact.png"
+          alt="Liên hệ Zalo LAH ART PRINT - 0789 387 343"
+          className="zalo-contact-image"
+        />
+      </a>
+    </div>
+
+  </div>
+</header>
       
 
       <section id="products">
