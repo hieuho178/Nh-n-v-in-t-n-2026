@@ -236,6 +236,17 @@ export default function Home() {
               />
             </a>
           </div>
+                  <div className="product-banners">
+  <img
+    src="/products/banner-nhan-vo.png"
+    alt="Nhãn vở in theo yêu cầu - 1 tờ 36 cái"
+  />
+
+  <img
+    src="/products/banner-sticker.png"
+    alt="Sticker dán tên - 1 tờ 100 cái"
+  />
+</div>
         </div>
       </header>
 
