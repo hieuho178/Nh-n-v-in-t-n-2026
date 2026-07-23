@@ -211,7 +211,6 @@ export default function Home() {
   />
 </div>
         </div>
-      </header>
       <p className="lead">
             <h3>
             👉 Shop bán chạy Top 1 Shopee suốt 5 năm, với hơn 100.000 lượt mua.
@@ -241,6 +240,8 @@ export default function Home() {
               />
             </a>
           </div>
+      </header>
+      
 
       <section id="products">
         <div className="container">
